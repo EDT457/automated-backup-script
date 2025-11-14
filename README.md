@@ -85,30 +85,7 @@ Building this project taught me:
 - Protecting against accidental file deletion
 - System administration automation tasks
 
-## Future Improvements
-
-- Add configuration file support for saving source/backup paths
-- Implement incremental backups with change tracking
-- Add email notifications for backup failures
-- Create a GUI interface with monitoring dashboard
-- Support for cloud storage backends (AWS S3, Azure Blob)
-- Compression of backup files to save storage space
-- Exclude certain file types or folders from backup
-- Scheduled backups at specific times
-- Backup versioning to keep multiple file versions
-
-## Project Structure
-
-```
-├── abs.py
-├── backup_log.txt
-└── README.md
-```
 
 ## Author
 
 Ethan Tan
-
-## Note
-
-This project aligns with CompTIA A+ certification topics including file systems, automation, and system administration practices.
