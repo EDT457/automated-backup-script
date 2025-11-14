@@ -13,3 +13,7 @@ def backup_files(source, dest):
             else:
                 backup_files(os.path.join(source, file), os.path.join(dest, file))
  
+
+add1 = "start-test"
+add2 = "end-test"
+backup_files(add1, add2)
